@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1818dp"
+            tools:context="com.example.itmanager.MobileMoney.ShowTransactionsList"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="81dp">
+
+            <TextView
+                android:id="@+id/txthead"
+                android:layout_width="406dp"
+                android:layout_height="58dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="1757dp"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="Transactions"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/resultSet"
+                android:layout_width="209dp"
+                android:layout_height="37dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="71dp"
+                android:layout_marginRight="198dp"
+                android:layout_marginBottom="1710dp" />
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="233dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="113dp"
+                android:layout_marginRight="104dp"
+                android:layout_marginBottom="1665dp" />
+
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="205dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="205dp"
+                android:layout_marginTop="155dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1628dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

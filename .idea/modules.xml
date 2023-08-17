@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MobileMoney.iml" filepath="$PROJECT_DIR$/MobileMoney.iml" group="MobileMoney" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MobileMoney/app" />
+      <module fileurl="file://$PROJECT_DIR$/jtds-1.2.5/jtds-1.2.5.iml" filepath="$PROJECT_DIR$/jtds-1.2.5/jtds-1.2.5.iml" group="MobileMoney/jtds-1.2.5" />
+      <module fileurl="file://$PROJECT_DIR$/jtds-1.2.7/jtds-1.2.7.iml" filepath="$PROJECT_DIR$/jtds-1.2.7/jtds-1.2.7.iml" group="MobileMoney/jtds-1.2.7" />
+    </modules>
+  </component>
+</project>

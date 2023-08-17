@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1818dp"
+    android:layout_alignParentBottom="false"
+    tools:context="com.example.itmanager.MobileMoney.MenuActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="190dp"
+        android:layout_height="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="76dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="1658dp"
+        android:background="@mipmap/airtime_"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="189dp"
+        android:layout_height="95dp"
+        android:layout_alignTop="@+id/button13"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1650dp"
+        android:background="@mipmap/light_0"
+        android:text="Cash Power" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="189dp"
+        android:layout_height="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="181dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="1550dp"
+        android:background="@mipmap/other_payments"
+        android:text="Other Payments" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="186dp"
+        android:layout_height="86dp"
+        android:layout_alignTop="@+id/button15"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="1546dp"
+        android:background="@mipmap/water_" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="410dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="1758dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Menu"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="13dp"
+        android:layout_height="1764dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginRight="203dp"
+        android:layout_marginBottom="-8dp"
+        android:background="?android:attr/listDivider" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="1635dp"
+        android:background="?android:attr/listDivider" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="1532dp"
+        android:background="?android:attr/listDivider" />
+
+
+</RelativeLayout>
+
+
+

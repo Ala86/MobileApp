@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Walleto</string>
+    <string name="Name">Mobile Money</string>
+    <string name="action_settings">Settings</string>
+
+        <string name="country_prompt">Choose Credit Union</string>
+
+        <string-array name="spinner3Items">
+
+            <item>Africell</item>
+            <item>Gamcell</item>
+            <item>Qcell</item>
+            <item>Comium</item>
+
+
+        </string-array>
+
+</resources>
